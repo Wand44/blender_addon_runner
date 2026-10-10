@@ -3,8 +3,8 @@
  **AI-coded personal dev tool.** I wrote this with AI for my own use, to make
 iterating on Blender addons easier. It is an editor-agnostic code runner: edit
 in whatever editor you like, and the running Blender reloads your source.
- It links your folder into
-Blender's addon directory, starts Blender with the addon enabled, and reloads it
+ 
+It links your folder into Blender's addon directory, starts Blender with the addon enabled, and reloads it
 every time you save a source file.
 
 ```
