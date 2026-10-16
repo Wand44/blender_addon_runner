@@ -1,0 +1,16 @@
+[project]
+name = "blenderaddonrunner"
+version = "0.1.0"
+description = "Run a Blender addon straight from its source folder"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+blenderaddonrunner = "addon_runner:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["addon_runner", "bzr_color"]

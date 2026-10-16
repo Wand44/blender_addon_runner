@@ -25,6 +25,20 @@ your editor, and the running Blender picks the change up.
 Nothing is installed into your Python environment. The runner only uses the
 standard library.
 
+## Installing the `blenderaddonrunner` command
+
+```
+pip install ./blender_addon_runner
+```
+
+This installs the package and creates a `blenderaddonrunner` command on your
+PATH, so from any folder you can do:
+
+```
+cd /path/to/my_addon
+blenderaddonrunner
+```
+
 ## Usage
 
 ```
